@@ -4,13 +4,13 @@ local Window = OrionLib:MakeWindow({Name = "KardessBLOX Ranxware", HidePremium =
 
 OrionLib:MakeNotification({
 	Name = "KardessBLOX Lunar Vape",
-	Content = "Selam, Lunar Vape'e erişmek için anahtar sistemini yapmalısın, "..Player.Name.." ",
+	Content = "Selam, Ranxware'a erişmek için anahtar sistemini yapmalısın, "..Player.Name.." ",
 	Image = "rbxassetid://14612515786",
 	Time = 5
 })
 
 
-_G.Key = "KardessLunarVape"
+_G.Key = "KardessRanxware"
 _G.KeyInput = "string"
 
 function MakeScriptHub()
