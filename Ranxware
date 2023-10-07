@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Player = game.Players.LocalPlayer
-local Window = OrionLib:MakeWindow({Name = "KardessBLOX Lunar Vape", HidePremium = false, SaveConfig = true, IntroText = "👾Lunar Vape", ConfigFolder = "KardessLunarVape"})
+local Window = OrionLib:MakeWindow({Name = "KardessBLOX Ranxware", HidePremium = false, SaveConfig = true, IntroText = "👾Ranxware", ConfigFolder = "KardessRanxware"})
 
 OrionLib:MakeNotification({
 	Name = "KardessBLOX Lunar Vape",
@@ -14,14 +14,14 @@ _G.Key = "KardessLunarVape"
 _G.KeyInput = "string"
 
 function MakeScriptHub()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/AsteriskCodes/Ranxware-V2-Restored/main/source.lua"))()
   OrionLib:Destroy()
 end
 
 function CorrectKeyNotification()
 OrionLib:MakeNotification({
 	Name = "KardessBLOX Anahtar",
-	Content = "Doğru Anahtar , Lunar Vape yükleniyor.",
+	Content = "Doğru Anahtar , Ranxware yükleniyor.",
 	Image = "",
 	Time = 5
 })
@@ -73,7 +73,7 @@ OrionLib:MakeNotification({
 	Time = 5
 })
 
-      setclipboard("https://rekonise.com/lunar-vape-c89nh")
+      setclipboard("https://rekonise.com/ranxware-xqji9")
   	end    
 })
 
